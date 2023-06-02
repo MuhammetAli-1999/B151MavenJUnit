@@ -14,4 +14,35 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-</project>
+    <!-- ILK ONCE SELENIUM-JAVA dependencysini pom.xml dosyamiza mvnrepository.com adresinden alir koyariz -->
+    <!-- Tum dependency leri dependencies tagi icine koymamiz gerekir -->
+
+
+
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.8.3</version>
+        </dependency>
+
+<!-- Webdrivermanager; sürücüleri yönetir ve proje için gereken sürücüyü otomatik olarak yükler  -->
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.3.2</version>
+        </dependency>
+
+
+
+
+
+
+    </dependencies>
+
+
+
+    </project>
